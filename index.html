@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Official information about the Abacus Proposal Management application, its internal business workflows, and Google Drive document archiving.">
+<title>Abacus Proposal Management</title>
+<style>
+:root{color-scheme:light;--ink:#172536;--muted:#5d6d7e;--line:#dce4eb;--blue:#174a78;--paper:#f5f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}.wrap{max-width:920px;margin:0 auto;padding:32px 22px 70px}.brand{font-size:13px;letter-spacing:.13em;font-weight:800;color:var(--blue)}header{padding:42px 0 28px}h1{font-size:clamp(34px,6vw,54px);line-height:1.08;letter-spacing:-.04em;margin:12px 0 18px}.lead{font-size:19px;color:var(--muted);max-width:760px}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;margin:20px 0;box-shadow:0 10px 30px rgba(23,37,54,.04)}h2{font-size:21px;margin:0 0 10px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.tile{border:1px solid var(--line);border-radius:13px;padding:18px}.tile h3{margin:0 0 6px;font-size:16px}.tile p{margin:0;color:var(--muted);font-size:14px}.links{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}a{color:var(--blue);font-weight:650}.button{display:inline-block;text-decoration:none;background:var(--blue);color:#fff;padding:11px 17px;border-radius:9px}.button.secondary{background:#fff;color:var(--blue);border:1px solid var(--line)}footer{border-top:1px solid var(--line);padding-top:20px;color:var(--muted);font-size:13px;margin-top:42px}@media(max-width:640px){.grid{grid-template-columns:1fr}.wrap{padding:24px 16px 56px}.panel{padding:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="brand">ABACUS ACCOUNTING LLC</div>
+<h1>Abacus Proposal Management</h1>
+<p class="lead">An internal business application used by authorised Abacus personnel to manage customer records, prepare and track commercial proposals, create agreements, coordinate onboarding, and archive business documents.</p>
+<div class="links">
+<a class="button" href="https://abacus-proposals.abacus-backend.workers.dev/">Open staff application</a>
+<a class="button secondary" href="./privacy.html">Privacy policy</a>
+<a class="button secondary" href="./terms.html">Terms of use</a>
+</div>
+</header>
+<section class="panel">
+<h2>What the application does</h2>
+<div class="grid">
+<div class="tile"><h3>Customer workspace</h3><p>Maintains business customer profiles and related contact and tax-registration details for proposal and agreement workflows.</p></div>
+<div class="tile"><h3>Proposal management</h3><p>Prepares, issues, revises and tracks commercial proposals, including subscription volumes, pricing, scope and status history.</p></div>
+<div class="tile"><h3>Agreements and onboarding</h3><p>Creates agreements from accepted proposals and records onboarding information and related documents.</p></div>
+<div class="tile"><h3>Document archive</h3><p>Generates PDF records and, when an administrator connects Google Drive, archives and retrieves the specific files used by the application.</p></div>
+</div>
+</section>
+<section class="panel">
+<h2>Google Drive connection</h2>
+<p>An authorised administrator may connect the company Google account so the application can create and manage its proposal, agreement and onboarding archive files. The application requests Google's <code>drive.file</code> permission, which is limited to the specific Drive files used with this application. It does not request general access to every file in the account.</p>
+<p>Details about the information involved and how the Drive connection is handled are in the <a href="./privacy.html">Privacy Policy</a>.</p>
+</section>
+<section class="panel">
+<h2>Who can use it</h2>
+<p>The application is intended for approved Abacus staff. It is not a public customer portal. Staff access is controlled through individual usernames, passwords and assigned roles or business-unit permissions.</p>
+<p>Customers and other business contacts should contact their Abacus representative rather than attempting to create an application account.</p>
+</section>
+<footer>
+<p><strong>Abacus Accounting LLC</strong><br>Application information and privacy enquiries: <a href="mailto:abacus.backend@gmail.com">abacus.backend@gmail.com</a></p>
+<p><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Use</a></p>
+<p>Last updated: 21 November 2026</p>
+</footer>
+</div>
+</body>
+</html>
